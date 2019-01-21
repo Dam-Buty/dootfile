@@ -6,8 +6,12 @@
   "scripts": {
     "test": "nyc mocha"
   },
-  "author": "Damien BUTY",
+  "author": "Damien BUTY <dam.buty@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Dam-Buty/dootfile.git"
+  },
   "devDependencies": {
     "eslint": "^5.12.0",
     "expect": "^23.6.0",
