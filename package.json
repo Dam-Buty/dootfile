@@ -1,0 +1,27 @@
+{
+  "name": "dootfile",
+  "version": "1.0.0",
+  "description": "A dotfile manager for NodeJS CLI applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "Damien BUTY",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "expect": "^23.6.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "sinon": "^7.2.2"
+  },
+  "dependencies": {
+    "lodash.ceil": "^4.0.4",
+    "lodash.pick": "^4.4.0",
+    "lodash.round": "^4.0.4",
+    "lodash.zip": "^4.2.0",
+    "pkginfo": "^0.4.1",
+    "promise-fs": "^2.0.1",
+    "promptly": "^3.0.3"
+  }
+}
